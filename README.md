@@ -1,13 +1,13 @@
-# DynamicScripts
-<b>Scripts for the Dynamic (DYN) Cryptocurrency</b>
+# IonScripts
+<b>Scripts for the Ion (ION) Cryptocurrency</b>
 
-You can now setup a dynamic miner with one line! Example: (<i>be sure to replace the address with your scrape address</i>)
+You can now setup a ion miner with one line! Example: (<i>be sure to replace the address with your scrape address</i>)
 
-<code>wget -N https://github.com/LordDarkHelmet/DynamicScripts/releases/download/v1.0.0/dynSimpleSetup.sh && sudo sh dynSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD</code>
+<code>wget -N https://github.com/LordDarkHelmet/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD</code>
 
 The above line will download the latest startup script which can: 
  * Create miners
- * Create remote dynodes
+ * Create remote ionodes
  * Auto Scrapes
  * Auto Updates
  * Watchdog to keep the mining going just in case of a crash
@@ -17,19 +17,19 @@ The above line will download the latest startup script which can:
  * Download the Blockchain
  * and more...
  
- You can also setup dynodes with one line. Use the -h command to see the full list of capabilietes and options, Examples are provided.  
+ You can also setup ionodes with one line. Use the -h command to see the full list of capabilietes and options, Examples are provided.  
  
- <code>wget -N https://github.com/LordDarkHelmet/DynamicScripts/releases/download/v1.0.0/dynSimpleSetup.sh && sudo sh dynSimpleSetup.sh -h</code>
+ <code>wget -N https://github.com/LordDarkHelmet/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -h</code>
  
 
-This is a collection of scripts that will assist users in setting up and managing instances of the dynamic wallet.
+This is a collection of scripts that will assist users in setting up and managing instances of the ion wallet.
 
-<b>dynSimpleSetup.sh</b>
-This script is used in conjunction with the dynStartupScript.sh script. It is a non, or rarely changing script that will pull the latest dynStartupScript.sh script and run it. This allows us to have a static location for a release script so we can use one line startup commands while always running the latest script. 
+<b>ionSimpleSetup.sh</b>
+This script is used in conjunction with the ionStartupScript.sh script. It is a non, or rarely changing script that will pull the latest ionStartupScript.sh script and run it. This allows us to have a static location for a release script so we can use one line startup commands while always running the latest script. 
 
-<b>dynStartupScript.sh:</b>
-This script is a one stop shop. Run it on your VPS and it will do everything hands off. It will mine for you, it will scrape for you, it will auto update when new versions come out, it can even setup a dynode for you. Simple and easy. If you set it as a startup script, you will never need to log into your VPS.
+<b>ionStartupScript.sh:</b>
+This script is a one stop shop. Run it on your VPS and it will do everything hands off. It will mine for you, it will scrape for you, it will auto update when new versions come out, it can even setup a ionode for you. Simple and easy. If you set it as a startup script, you will never need to log into your VPS.
 
 
-Dynamic (DYN) is a cryptocurrency. You can find out more at:
-https://dynamic.duality.solutions/
+Ion (ION) is a cryptocurrency. You can find out more at:
+https://ion.duality.solutions/
