@@ -12,15 +12,15 @@
 #  * Startup on reboot
 #  * Can create miners
 #  * Can create remote ionodes
-#  and more... See https://github.com/LordDarkHelmet/IonScripts for the latest.
+#  and more... See https://github.com/cevap/IonScripts for the latest.
 #
 # You can run this as one command on the command line
-# wget -N https://github.com/LordDarkHelmet/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sh ionSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD
+# wget -N https://github.com/cevap/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sh ionSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD
 #
 echo "===========================================================================" | tee -a ionSimpleSetup.log
 echo "Version 1.0.5 of ionSimpleSetup.sh" | tee -a ionSimpleSetup.log
 echo " Released May 4, 2017 Released by LordDarkHelmet" | tee -a ionSimpleSetup.log
-echo "Original Version found at: https://github.com/LordDarkHelmet/IonScripts" | tee -a ionSimpleSetup.log
+echo "Original Version found at: https://github.com/cevap/IonScripts" | tee -a ionSimpleSetup.log
 echo "Local Filename: $0" | tee -a ionSimpleSetup.log
 echo "Local Time: $(date +%F_%T)" | tee -a ionSimpleSetup.log
 echo "System:" | tee -a ionSimpleSetup.log
@@ -59,17 +59,17 @@ fi
 
 echo "" | tee -a ionSimpleSetup.log
 echo "" | tee -a ionSimpleSetup.log
-echo "Step 1: Download the latest ionStartupScript.sh from GitHub, https://github.com/LordDarkHelmet/IonScripts" | tee -a ionSimpleSetup.log
+echo "Step 1: Download the latest ionStartupScript.sh from GitHub, https://github.com/cevap/IonScripts" | tee -a ionSimpleSetup.log
 echo "- To download from GitHub we need to install GIT" | tee -a ionSimpleSetup.log
 sudo apt-get -y install git | tee -a ionSimpleSetup.log
 echo "- we also use the \"at\" command we should install that too. " | tee -a ionSimpleSetup.log
 sudo apt-get -y install at | tee -a ionSimpleSetup.log
 echo "- Clone the repository" | tee -a ionSimpleSetup.log
-sudo git clone https://github.com/LordDarkHelmet/IonScripts | tee -a ionSimpleSetup.log
+sudo git clone https://github.com/cevap/IonScripts | tee -a ionSimpleSetup.log
 echo "- Navigate to the script" | tee -a ionSimpleSetup.log
 cd IonScripts
 echo "- Just in case we previously ran this script, pull the latest from GitHub" | tee -a ../ionSimpleSetup.log
-sudo git pull https://github.com/LordDarkHelmet/IonScripts | tee -a ../ionSimpleSetup.log
+sudo git pull https://github.com/cevap/IonScripts | tee -a ../ionSimpleSetup.log
 echo "" | tee -a ionSimpleSetup.log
 echo "Step 2: Set permissions so that ionStartupScript.sh can run" | tee -a ../ionSimpleSetup.log
 echo "- Change the permissions" | tee -a ../ionSimpleSetup.log

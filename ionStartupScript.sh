@@ -35,7 +35,7 @@ varVersion="${varVersionNumber} ionStartupScript.sh ${varVersionDate} Released b
 echo ""
 echo "==========================================================================="
 echo "$varVersion"
-echo "Original Version found at: https://github.com/LordDarkHelmet/IonScripts"
+echo "Original Version found at: https://github.com/cevap/IonScripts"
 echo "Local Filename: $0"
 echo "Local Time: $(date +%F_%T)"
 echo "System Info: $(uname -a)"
@@ -113,7 +113,7 @@ varRemoteRepository=https://github.com/duality-solutions/Ion
 #This can be used to auto heal and update the script system. 
 #If a future deployment breaks something, an update by the repository owner can run a script on your machine. 
 #This is dangerous and not implemented
-varRemoteScriptRepository=https://github.com/LordDarkHelmet/IonScripts
+varRemoteScriptRepository=https://github.com/cevap/IonScripts
 
 #AutoUpdater
 #This runs the auto update script. If you do not want to automatically update the script, then set this to false. If a new update 

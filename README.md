@@ -3,7 +3,7 @@
 
 You can now setup a ion miner with one line! Example: (<i>be sure to replace the address with your scrape address</i>)
 
-<code>wget -N https://github.com/LordDarkHelmet/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD</code>
+<code>wget -N https://github.com/cevap/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -s DJnERexmBy1oURgpp2JpzVzHcE17LTFavD</code>
 
 The above line will download the latest startup script which can: 
  * Create miners
@@ -19,7 +19,7 @@ The above line will download the latest startup script which can:
  
  You can also setup ionodes with one line. Use the -h command to see the full list of capabilietes and options, Examples are provided.  
  
- <code>wget -N https://github.com/LordDarkHelmet/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -h</code>
+ <code>wget -N https://github.com/cevap/IonScripts/releases/download/v1.0.0/ionSimpleSetup.sh && sudo sh ionSimpleSetup.sh -h</code>
  
 
 This is a collection of scripts that will assist users in setting up and managing instances of the ion wallet.
